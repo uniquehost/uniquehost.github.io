@@ -1,0 +1,76 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    background-size: cover;
+    background-image: url("background.jpg");
+    margin: 0;
+    padding: 0;
+    text-shadow: 0px 0px 35px #000;
+}
+
+.nav-hver a{
+    background: none;
+    text-decoration: none;
+    transition: all 500ms ease-out;
+}
+
+.nav-hver a:hover{
+    font-size: 19px;
+}
+
+h1, p, h6, img{
+    background: none;
+}
+
+img{
+    height: 80px;
+    transform: translateY(35px);
+    transition: all 500ms ease-out;
+}
+
+img:hover{
+    height: 90px;
+}
+
+.nav, .title, .work, .nav-hver, .social, .about, .order{
+    background: none;
+}
+
+.nav{
+    padding: 5px 20px;
+    word-spacing: 15px;
+}
+
+.title{
+    padding: 150px 250px;
+}
+
+.work, .social, .about, .order{
+    padding-left: 250px;
+}
+
+.border{
+    background: none;
+    text-decoration: none;
+    word-spacing: normal;
+    border: 2.5px solid #fff;
+    padding: 2.5px 10px;
+    border-radius: 1.5em;
+    transition: .3s;
+}
+
+.border:hover{
+    background-color: white;
+    color: black;
+}
+
+.normal{
+    background: none;
+    text-decoration: none;
+    transition: all 500ms ease-out;
+    cursor: pointer;
+}
+
+.normal:hover{
+    font-size: 19px;
+}
